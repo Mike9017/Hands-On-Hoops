@@ -1,0 +1,274 @@
+.spacer{
+    height:80px;
+}
+
+li a{
+    
+    font-size:25px;
+    font-family: "Comic Relief", system-ui;
+  font-weight: 700;
+  font-style: normal;
+     
+}
+
+li a::before {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: -4px;
+    left: 0;
+    background-color: #f18117;
+    transition: width 0.3s ease;
+  }
+
+  
+
+  .navbar a:hover::before {
+    width: 100%;
+  }
+
+.navbar a {
+    
+    color: #f0f0f0;
+    text-decoration: none;
+    margin-left: 30px;
+    position: relative;
+    transition: color 0.3s ease;
+  }
+
+@keyframes mymove {
+ 
+  from { font-size:30px;}
+  to { font-size:40px;}
+}
+
+
+  
+.logo{
+    height:100px;
+    width:110px;
+   
+    
+}
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+     font-family: "Comic Relief", system-ui;
+ 
+  font-style: normal;
+}
+
+
+
+
+
+
+
+body{
+    background-color:lightblue;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+
+.spacer1{
+    height:40px;
+}
+
+.spacer3{
+    height:15px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+
+
+
+
+
+
+
+
+ .class-hero {
+    background: url('party3.webp') center/cover no-repeat;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+
+  .hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    animation: slideUp 1s ease-out;
+  }
+
+  .title2{
+    color: royalblue;
+  }
+
+  .how-it-works, .skills-learned, .host-form-section {
+    padding: 40px 120px;
+    text-align: center;
+  }
+
+  .how-it-works ul, .skills-learned ul {
+    list-style: none;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    
+  }
+
+  .how-it-works li, .skills-learned li {
+    background: #fff;
+    margin: 10px 0;
+    padding: 12px 20px;
+    border-left: 6px solid #4169e1;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+
+  }
+
+ 
+
+/* === Footer Styles === */
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-title {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.footer-text {
+  color: #bbb;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-link {
+  color: #bbb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer-link:hover {
+  color: #f39c12;
+}
+
+.footer-divider {
+  margin: 30px auto;
+  width: 80%;
+  border: 1px solid #444;
+}
+
+.footer-copy {
+  color: #888;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/* Themed Colors */
+.orange {
+  color: #f39c12;
+}
+
+.lightblue {
+  color: #00bfff;
+}
+
+
+.footer-social {
+  color: #bbb;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer-social:hover {
+  color: #00bfff;
+}
+
+.reg-form {
+      max-width: 500px;
+      margin: 50px auto;
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .reg-form h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .reg-form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .reg-form input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      box-sizing: border-box;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .reg-form button {
+      margin-top: 25px;
+      width: 100%;
+      padding: 12px;
+      background-color: royalblue;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .reg-form button:hover {
+      background-color: dodgerblue;
+    }
