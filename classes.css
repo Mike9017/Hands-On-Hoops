@@ -484,6 +484,12 @@ body{
 }
 
 @media (max-width: 768px) {
+  /* NAVBAR */
+  .navbar-nav {
+    
+    text-align: center;
+    padding: 10px 0;
+  }
   .container {
     height: auto;
     padding: 100px 20px 60px; /* Add spacing for mobile */
