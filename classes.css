@@ -483,3 +483,46 @@ body{
   animation: slideUp 0.5s ease-out;
 }
 
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    padding: 100px 20px 60px; /* Add spacing for mobile */
+    position: relative;
+  }
+
+  .background-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer-section {
+    text-align: center;
+    min-width: auto;
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-text,
+  .footer-link,
+  .footer-social {
+    font-size: 13px;
+  }
+
+  .footer-divider {
+    width: 90%;
+  }
+}

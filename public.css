@@ -335,3 +335,73 @@ body{
   gap: 8px;
   font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar-nav {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .navbar .nav-link {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-left: 0;
+  }
+
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+    border: none;
+  }
+
+  /* Hero section text responsiveness */
+  .class-hero {
+    padding: 50px 10px;
+  }
+
+  .hero-content {
+    padding: 15px;
+  }
+
+  .class-hero h1 {
+    font-size: 24px;
+  }
+
+  .class-hero p {
+    font-size: 16px;
+  }
+
+  /* Section padding adjustments */
+  .how-it-works, .skills-learned, .host-form-section {
+    padding: 30px 20px;
+  }
+
+  /* Footer stack layout */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-section {
+    min-width: auto;
+    text-align: center;
+  }
+
+  /* Form choice radio layout stack */
+  .form-choice-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-choice {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

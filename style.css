@@ -358,3 +358,113 @@ body{
     .nav-buttons button:hover {
       background: #cc5200;
     }
+
+
+
+
+
+
+    @media (max-width: 768px) {
+  /* Navbar */
+  .logo {
+    height: 60px;
+    width: 70px;
+  }
+
+  li a {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  /* Hero Section */
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    padding: 80px 20px;
+  }
+
+  .content h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
+  .content a {
+    font-size: 18px;
+    padding: 12px 20px;
+  }
+
+  /* Mission Section */
+  .mission-container {
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 40px;
+  }
+
+  .mission-image img {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .mission-text h2 {
+    font-size: 22px;
+  }
+
+  .mission-text p {
+    font-size: 15px;
+  }
+
+  /* Footer */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-section {
+    text-align: center;
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-text,
+  .footer-link,
+  .footer-copy {
+    font-size: 13px;
+  }
+
+  /* Testimonials */
+  .testimonial-section h2 {
+    font-size: 24px;
+  }
+
+  .slide video {
+    max-width: 100%;
+  }
+
+  .nav-buttons button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    padding: 100px 20px 60px; /* Add spacing for mobile */
+    position: relative;
+  }
+
+  .background-clip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    z-index: -1;
+  }
+}

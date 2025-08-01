@@ -287,3 +287,100 @@ body{
 .footer-social:hover {
   color: #00bfff;
 }
+
+
+@media (max-width: 768px) {
+  /* === Navbar === */
+  .navbar-nav {
+    
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navbar .nav-link {
+    font-size: 20px;
+    margin-left: 0;
+    padding: 10px 0;
+  }
+
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+
+  .navbar-toggler {
+    border: none;
+    margin-right: 10px;
+  }
+
+  /* === Hero Section === */
+  .class-hero {
+    padding: 50px 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 26px;
+  }
+
+  .hero-content p {
+    font-size: 16px;
+  }
+
+  /* === How It Works === */
+  .how-it-works {
+    padding: 30px 20px;
+  }
+
+  /* === Registration Forms === */
+  .reg-container {
+    flex-direction: column;
+    padding: 0 15px;
+    gap: 20px;
+  }
+
+  .reg-form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .reg-header {
+    font-size: 24px;
+    padding: 0 10px;
+  }
+
+  .reg-form h2 {
+    font-size: 20px;
+  }
+
+  .reg-form form label,
+  .reg-form form input,
+  .reg-form form button {
+    font-size: 15px;
+  }
+
+  /* === Footer === */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer-section {
+    text-align: center;
+    min-width: auto;
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-text,
+  .footer-link,
+  .footer-social {
+    font-size: 13px;
+  }
+
+  .footer-divider {
+    width: 90%;
+  }
+}

@@ -272,3 +272,71 @@ body{
     .reg-form button:hover {
       background-color: dodgerblue;
     }
+
+
+@media (max-width: 768px) {
+  /* NAVBAR */
+  .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navbar .nav-link {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-left: 0;
+  }
+
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+    border: none;
+  }
+
+  /* HERO */
+  .class-hero {
+    padding: 40px 10px;
+  }
+
+  .hero-content {
+    padding: 15px;
+  }
+
+  .class-hero h1 {
+    font-size: 22px;
+  }
+
+  .class-hero p {
+    font-size: 16px;
+  }
+
+  /* SECTION LAYOUTS */
+  .how-it-works,
+  .skills-learned,
+  .host-form-section {
+    padding: 30px 20px;
+  }
+
+  /* FORM */
+  .reg-form {
+    margin: 30px 15px;
+    padding: 20px;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer-section {
+    min-width: auto;
+    text-align: center;
+  }
+}

@@ -272,3 +272,96 @@ body{
     .reg-form button:hover {
       background-color: dodgerblue;
     }
+
+
+    @media (max-width: 768px) {
+  /* NAVBAR */
+  .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.95);
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .navbar .nav-link {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-left: 0;
+  }
+
+  .logo {
+    height: 80px;
+    width: auto;
+  }
+
+  .navbar-toggler {
+    margin-right: 10px;
+    border: none;
+  }
+
+  /* HERO */
+  .class-hero {
+    padding: 40px 15px;
+  }
+
+  .hero-content {
+    padding: 15px;
+  }
+
+  .class-hero h1 {
+    font-size: 24px;
+  }
+
+  .class-hero p {
+    font-size: 16px;
+  }
+
+  /* SECTIONS */
+  .how-it-works,
+  .skills-learned,
+  .host-form-section {
+    padding: 30px 20px;
+  }
+
+  .how-it-works li,
+  .skills-learned li {
+    font-size: 14px;
+    padding: 10px 15px;
+  }
+
+  /* FORM */
+  .reg-form {
+    margin: 30px 15px;
+    padding: 20px;
+  }
+
+  .reg-form input,
+  .reg-form button {
+    font-size: 14px;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .footer-section {
+    min-width: auto;
+    text-align: center;
+  }
+
+  .footer-title {
+    font-size: 16px;
+  }
+
+  .footer-text,
+  .footer-link,
+  .footer-social {
+    font-size: 13px;
+  }
+
+  .footer-divider {
+    width: 90%;
+  }
+}
